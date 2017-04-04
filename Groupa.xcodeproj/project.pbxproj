@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D77887361E8AF8FD0015FB1E /* displayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77887351E8AF8FD0015FB1E /* displayCell.swift */; };
 		D7D98ED71E838AE6002DEDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D98ED61E838AE6002DEDEF /* AppDelegate.swift */; };
 		D7D98ED91E838AE6002DEDEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D98ED81E838AE6002DEDEF /* ViewController.swift */; };
 		D7D98EDC1E838AE7002DEDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D98EDA1E838AE7002DEDEF /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D77887351E8AF8FD0015FB1E /* displayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayCell.swift; sourceTree = "<group>"; };
 		D7D98ED31E838AE5002DEDEF /* Groupa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groupa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D98ED61E838AE6002DEDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7D98ED81E838AE6002DEDEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				D7D98ED61E838AE6002DEDEF /* AppDelegate.swift */,
 				D7D98ED81E838AE6002DEDEF /* ViewController.swift */,
 				D7D98EDA1E838AE7002DEDEF /* Main.storyboard */,
+				D77887351E8AF8FD0015FB1E /* displayCell.swift */,
 				D7D98EDD1E838AE8002DEDEF /* Assets.xcassets */,
 				D7D98EDF1E838AE8002DEDEF /* LaunchScreen.storyboard */,
 				D7D98EE21E838AE9002DEDEF /* Info.plist */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77887361E8AF8FD0015FB1E /* displayCell.swift in Sources */,
 				D7D98ED91E838AE6002DEDEF /* ViewController.swift in Sources */,
 				D7D98ED71E838AE6002DEDEF /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +416,7 @@
 				D7D98EF21E838AE9002DEDEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7D98EF31E838AE9002DEDEF /* Build configuration list for PBXNativeTarget "GroupaTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				D7D98EF51E838AE9002DEDEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
